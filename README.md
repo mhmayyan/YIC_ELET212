@@ -1,2 +1,2 @@
-# teaching
-Codes and files for classes I teach
+# Codes and Files for ELET 212
+
