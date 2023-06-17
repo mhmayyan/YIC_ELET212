@@ -1,5 +1,4 @@
 ; blink pin 0 on port 1
-;
 SELECT  EQU     0FC48H
 IO_SEL  EQU     10011110B
         ;
@@ -7,13 +6,13 @@ IO_SEL  EQU     10011110B
         SJMP    START
 
         ORG     0030H
-START:  MOV     SP,#60H	; set the stack pointer to point to RAM address 0x60
+		; set the stack pointer to point to RAM address 0x60
+START:  MOV     SP,#60H	
 
         ;set up the training kit decoder
         MOV     A,#IO_SEL
         MOV     DPTR,#SELECT
         MOVX    @DPTR,A
-
 
 LP1:    CPL     P1.0    ; toggle bit 0 on port 1
         CALL    DELAY   ; call a delay subruotine
