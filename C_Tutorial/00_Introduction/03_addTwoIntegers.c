@@ -1,5 +1,10 @@
 /*
- * gcc -Wall -Wextra 03_addTwoIntegers.c -o 03_addTwoIntegers
+	gcc -Wall -Wextra 03_addTwoIntegers.c -o 03_addTwoIntegers
+	
+	By Mohammad Mayyan
+	June 14, 2023
+
+	Function:
 */
 
 #include <stdio.h>

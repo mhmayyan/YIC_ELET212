@@ -6,15 +6,13 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <conio.h>
 
 int check_vowel(char);
 
-void main()
+int main()
 {
     char s[100], t[100];
     int i, j = 0;
-    clrscr();
     
     printf("Enter a string to delete vowels\n");
     gets(s);
@@ -32,7 +30,7 @@ void main()
     
     printf("String after deleting vowels: %s\n", s);
     
-    getch();
+    return 0;
 }
 
 

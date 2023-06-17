@@ -1,5 +1,10 @@
 /*
- * gcc -Wall -Wextra 00_templateC.c -o 00_templateC
+	gcc -Wall -Wextra 00_templateC.c -o 00_templateC
+	
+	By Mohammad Mayyan
+	June 14, 2023
+
+	Function:
 */
 
 

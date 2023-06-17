@@ -1,6 +1,12 @@
 /*
- * gcc -Wall -Wextra 04_dataTypeExample.c -o 04_dataTypeExample
+	gcc -Wall -Wextra 04_dataTypeExample.c -o 04_dataTypeExample
+	
+	By Mohammad Mayyan
+	June 14, 2023
+
+	Function:
 */
+
 #include <stdio.h>
 int main() {
   // Create variables
