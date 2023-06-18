@@ -1,1 +1,4 @@
 https://sdl-bgi.sourceforge.io/
+
+https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/codeblocks/index.php
+
