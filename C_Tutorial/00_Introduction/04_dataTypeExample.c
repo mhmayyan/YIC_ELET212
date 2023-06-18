@@ -11,7 +11,9 @@
 int main() {
   // Create variables
   int myNum = 15;              // Integer (whole number)
-  float myFloatNum = 5.99;     // Floating point number
+  float myFloatNum = 5.99351684615;     // Floating point number
+  double 
+  long double 
   char myLetter = 'D';         // Character
   // Print variables
   printf("%d\n", myNum);
@@ -22,8 +24,8 @@ int main() {
   const float PI = 3.14;
   printf("m/h = %d, PI = %0.3f\n", minutesPerHour, PI);
   // arrays
-  int myNumbers[4] = {25, 50, 75, 100};
-  printf("%d\n", myNumbers[0]);  // Outputs 25
+  int myNumbers[] = {25, 50, 75, 100};
+  printf("%d\n", myNumbers[1]);  // Outputs 25
   // multidimensional arrays
   int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
   matrix[0][2] = 55; // modifying an array element
