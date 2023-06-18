@@ -1,1 +1,0 @@
-* Line.c - Drawing Line in Graphics Mode
