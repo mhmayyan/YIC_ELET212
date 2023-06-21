@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/mhmay/Dropbox/000_YIC/Teaching/ELET212/GitHub/YIC_ELET212/C_Tutorial/06_Multi_file_program_and_header_files",
-      "program": "c:/Users/mhmay/Dropbox/000_YIC/Teaching/ELET212/GitHub/YIC_ELET212/C_Tutorial/06_Multi_file_program_and_header_files/build/Debug/outDebug",
+      "cwd": "c:/Users/mhmay/Dropbox/000_YIC/Teaching/ELET212/GitHub/YIC_ELET212",
+      "program": "c:/Users/mhmay/Dropbox/000_YIC/Teaching/ELET212/GitHub/YIC_ELET212/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
