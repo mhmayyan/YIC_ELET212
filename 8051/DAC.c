@@ -23,7 +23,7 @@ void main(void)
 		// sawtooth wave
 		var++;
 		P1 = var;
-		delayMS(1000);
+		delayMS(1);
 	}
 }
 
