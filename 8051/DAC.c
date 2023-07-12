@@ -6,9 +6,9 @@ unsigned char var = 0;
 
 void delayMS(unsigned int timeMS)
 {
-    unsigned int cntr, cntr2;
-    for( cntr=0; cntr<timeMS; cntr++)
-        for( cntr2=0; cntr2<1275; cntr2++) ;
+    unsigned int x, y;
+    for( x=0; x<timeMS; x++)
+        for( y=0; y<1275; y++) ;
 }
 
 
