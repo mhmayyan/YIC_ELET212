@@ -1,13 +1,12 @@
 ; blink pin 0 on port 1
 SELECT  EQU     0FC48H
 IO_SEL  EQU     10011110B
-        ;
+        ; 
         ORG     0
         SJMP    START
 
         ORG     0030H
-		; set the stack pointer to point to RAM address 0x60
-START:  MOV     SP,#60H	
+START:  MOV     SP,#60H	; set the stack pointer to point to RAM address 0x60
 
         ;set up the training kit decoder
         MOV     A,#IO_SEL
